@@ -47,9 +47,10 @@ if (isset($_SESSION[$ip]['backup_create_admin'])) {
             $this->CFG['my_host'] = $cfg['mysqlhost'];
             $this->CFG['my_pass'] = $cfg['mysqlpassword'];
             $this->CFG['backup_path'] = $_SESSION['backup_patch'];
+            $this->CFG['backup_url'] = $_SESSION['backup_url'];
             $auth = 1;
         }
     }
-    unset($_SESSION[$ip]['backup_create_admin'],$_SESSION['backup_patch'],$_SESSION['backup_create_admin_backup_url']);
+    unset($_SESSION[$ip]['backup_create_admin'],$_SESSION['backup_patch'],$_SESSION['backup_create_admin_backup_url'],$_SESSION['backup_url']);
 }
 

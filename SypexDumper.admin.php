@@ -29,6 +29,7 @@ if(!cot_import('exit','G','INT')){
     
     $_SESSION[$usr['ip']]['backup_create_admin'] = $usr['isadmin'];
     $_SESSION['backup_patch'] = $bpatch;
+    $_SESSION['backup_url'] = (!empty($cfg['plugin']['SypexDumper']['unique'])) ? 'backup/'.$cfg['plugin']['SypexDumper']['unique'].'/': 'backup/';
       
 }else{
     
