@@ -7,7 +7,7 @@ Hooks=tools
 /**
  * Sypex Dumper for Cotonti CMF
  *
- * @version 1.0 
+ * @version 1.1 
  * @author Dr2005alex, http://mycotonti.ru
  * @copyright (c) 20015 Dr2005alex, http://mycotonti.ru
  */

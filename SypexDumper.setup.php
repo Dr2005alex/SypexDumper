@@ -5,11 +5,11 @@ Code=SypexDumper
 Name=Sypex Dumper
 Category=utilities-tools
 Description="Sypex Dumper" - бэкап и восстановление БД MySQL
-Version=1.0
-Date=2015-Apr-18
+Version=1.1
+Date=2019-08-18
 Author=Dr2005alex
 Copyright=Copyright (c) 2015 Cotonti team 
-Notes=Используем готовый продукт от http://sypex.net/
+Notes=Используем готовый продукт от http://sypex.net/ Данная версия поддерживает PHP 7.0 и выше, а также сохраняет работоспособность с версиями ниже 7.0
 Auth_guests=R1
 Lock_guests=W2345A
 Auth_members=RW1
@@ -27,7 +27,7 @@ unique=1:string:::Имя уникальной папки для хранения
 /**
  * Sypex Dumper for Cotonti CMF
  *
- * @version 1.0 
+ * @version 1.1 
  * @author Dr2005alex, http://mycotonti.ru
  * @copyright (c) 20015 Dr2005alex, http://mycotonti.ru
  */

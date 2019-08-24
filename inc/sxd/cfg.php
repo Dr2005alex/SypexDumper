@@ -4,7 +4,7 @@ $CFG = array (
   'lang' => 'ru',
   'time_web' => '600',
   'time_cron' => '600',
-  'backup_path' => 'C:/OpenServer/domains/dolg.soc.coop.loc/plugins/SypexDumper/inc/sxd/backup/Ghs765edKjh/',
+  'backup_path' => '',
   'backup_url' => 'backup/',
   'only_create' => 'MRG_MyISAM MERGE HEAP MEMORY',
   'globstat' => 0,
@@ -13,11 +13,11 @@ $CFG = array (
   'my_user' => 'root',
   'my_pass' => '',
   'my_comp' => 0,
-  'my_db' => 'is',
+  'my_db' => '',
   'auth' => 'mysql cfg cotonti',
   'user' => '',
   'pass' => '',
   'confirm' => '6',
-  'exitURL' => '../../../../admin.php?m=other&p=SypexDumper&exit=1',
+  'exitURL' => '../../../../admin/other?p=SypexDumper&exit=1',
 );
 ?>

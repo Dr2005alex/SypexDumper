@@ -2,7 +2,7 @@
 /**
  * Sypex Dumper for Cotonti CMF
  *
- * @version 1.0 
+ * @version 1.1 
  * @author Dr2005alex, http://mycotonti.ru
  * @copyright (c) 20015 Dr2005alex, http://mycotonti.ru
  */
@@ -35,9 +35,11 @@ if (isset($_SESSION[$ip]['backup_create_admin'])) {
     if ($_SESSION[$ip]['backup_create_admin']) {
 
         define('COT_CODE', TRUE);
-        $cfg['system_dir'] = $_SERVER['DOCUMENT_ROOT'].mb_substr($cfg['system_dir'], 1);
-        
         include '../../../../datas/config.php';
+     
+        $cfg['system_dir'] = $_SERVER['DOCUMENT_ROOT'].mb_substr( $cfg['system_dir'], 1);
+
+       
         if ($this->connect($cfg['mysqlhost'], '', $cfg['mysqluser'], $cfg['mysqlpassword'])) {
 
             $this->CFG['my_db'] = $cfg['mysqldb'];
